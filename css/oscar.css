@@ -1,0 +1,61 @@
+body {
+  
+  background: #D2E3F0; 
+  color: #333;
+  font-size: 11px;
+  height: auto;
+  padding-bottom: 20px;
+}
+
+.Fondo {
+  background-image: url('../img/edificio-unir.jpg');
+  opacity: 1;
+  filter: alpha(opacity=10); /* For IE8 and earlier */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position-x: center;
+  background-position-y: 50px;
+  background-size: 1300px 900px;
+
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  font-family: Georgia, serif;
+  font-weight: normal;
+  padding-top: 20px;
+  text-align: center;
+}
+
+h2 {
+  padding-top: 20px;
+  text-align: center;
+}
+
+p {
+  border: 1px solid #666;
+  overflow: hidden;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.container_12,
+.container_16,
+.container_24 {
+  background-color: #fff;
+  background-repeat: repeat-y;
+  margin-bottom: 20px;
+}
+
+.container_12 {
+   background-image: url(../img/12_col.gif); 
+}
+
